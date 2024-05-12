@@ -22,7 +22,7 @@ eksctl create iamserviceaccount \
   --namespace=kube-system \
   --name=aws-load-balancer-controller \
   --role-name AmazonEKSLoadBalancerControllerRole \
-  --attach-policy-arn=arn:aws:iam::803595202047:policy/AWSLoadBalancerControllerIAMPolicy \
+  --attach-policy-arn=arn:aws:iam::80359520 acnt id:policy/AWSLoadBalancerControllerIAMPolicy \
   --approve \
   --region us-east-1
 ```
